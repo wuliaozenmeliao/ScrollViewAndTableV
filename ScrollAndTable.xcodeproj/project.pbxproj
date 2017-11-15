@@ -15,6 +15,7 @@
 		E98EF9A31FBBDD770091B864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EF9A21FBBDD770091B864 /* main.m */; };
 		E98EF9AD1FBBDD770091B864 /* ScrollAndTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EF9AC1FBBDD770091B864 /* ScrollAndTableTests.m */; };
 		E98EF9B81FBBDD770091B864 /* ScrollAndTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EF9B71FBBDD770091B864 /* ScrollAndTableUITests.m */; };
+		E98EF9C71FBBDF260091B864 /* KJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EF9C61FBBDF250091B864 /* KJTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E98EF9B31FBBDD770091B864 /* ScrollAndTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollAndTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98EF9B71FBBDD770091B864 /* ScrollAndTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollAndTableUITests.m; sourceTree = "<group>"; };
 		E98EF9B91FBBDD770091B864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E98EF9C51FBBDF250091B864 /* KJTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJTableViewController.h; sourceTree = "<group>"; };
+		E98EF9C61FBBDF250091B864 /* KJTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E98EF9941FBBDD770091B864 /* AppDelegate.m */,
 				E98EF9961FBBDD770091B864 /* ViewController.h */,
 				E98EF9971FBBDD770091B864 /* ViewController.m */,
+				E98EF9C51FBBDF250091B864 /* KJTableViewController.h */,
+				E98EF9C61FBBDF250091B864 /* KJTableViewController.m */,
 				E98EF9991FBBDD770091B864 /* Main.storyboard */,
 				E98EF99C1FBBDD770091B864 /* Assets.xcassets */,
 				E98EF99E1FBBDD770091B864 /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				E98EF9981FBBDD770091B864 /* ViewController.m in Sources */,
 				E98EF9A31FBBDD770091B864 /* main.m in Sources */,
+				E98EF9C71FBBDF260091B864 /* KJTableViewController.m in Sources */,
 				E98EF9951FBBDD770091B864 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
